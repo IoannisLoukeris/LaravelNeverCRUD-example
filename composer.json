@@ -1,13 +1,14 @@
 {
-    "name": "laravel/laravel",
+    "name": "ioannisloukeris/laravel-never-crud-example",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Example for using the LaravelNeverCRUD package.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "ioannisloukeris/laravel-never-crud": "^0.1",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5"
