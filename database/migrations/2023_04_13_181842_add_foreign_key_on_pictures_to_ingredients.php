@@ -15,6 +15,8 @@ class AddForeignKeyOnPicturesToIngredients extends Migration
     {
         Schema::table('ingredients', function (Blueprint $table) {
             $table->foreign('picture_id')
+            ->nullable()
+            ->default(null)
             ->references('id')
             ->on('pictures')
             ->onDelete('no action');
